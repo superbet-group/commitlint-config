@@ -1,6 +1,6 @@
 {
   "name": "@superbet-group/typescript.commitlint-config",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/superbet-group/typescript.commitlint-config.git",
   "peerDependencies": {
@@ -8,6 +8,9 @@
     "@commitlint/config-conventional": "^12.1.4",
     "@commitlint/lint": "^12.1.4"
   },
+  "files": [
+    "index.js"
+  ],
   "description": "Shared commitlint configuration",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/",
