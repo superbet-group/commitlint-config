@@ -9,14 +9,14 @@
 ### Install Configuration
 
 ```bash
-npm i @commitlint/{config-conventional,cli} @superbet-group/typescript.commitlint-config --save-dev
+npm i @commitlint/{config-conventional,cli} @superbet-group/commitlint-config --save-dev
 ```
 
 ### Add to Commitlint Config
 
 ```js
 module.exports = {
-    extends: ["@superbet-group/typescript.commitlint-config"]
+    extends: ["@superbet-group/commitlint-config"]
 };
 ```
 
