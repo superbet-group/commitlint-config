@@ -4,9 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/superbet-group/typescript.commitlint-config.git",
   "peerDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/config-conventional": "^12.1.4",
-    "@commitlint/lint": "^12.1.4"
+    "@commitlint/cli": ">=12.1.4 <= 13",
+    "@commitlint/config-conventional": ">=12.1.4 <= 13",
+    "@commitlint/lint": ">=12.1.4 <= 13"
   },
   "files": [
     "index.js"
@@ -17,8 +17,8 @@
     "tag": "latest"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
-    "@commitlint/lint": "^13.1.0"
+    "@commitlint/cli": "13.2.0",
+    "@commitlint/config-conventional": "13.2.0",
+    "@commitlint/lint": "13.2.0"
   }
 }
