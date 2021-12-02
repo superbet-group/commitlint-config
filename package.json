@@ -1,8 +1,16 @@
 {
-  "name": "@superbet-group/commitlint-config",
+  "name": "@superbet/commitlint-config",
   "version": "1.0.1",
   "main": "index.js",
-  "repository": "https://github.com/superbet-group/typescript.commitlint-config.git",
+  "license": "MIT",
+  "maintainers": [
+    "Jurica Kovacevic <jurica.kovacevic@superbet.com>",
+    "Daniel Kovacs <daniel.kovacs@superbet.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "ssh://github.com/superbet-group/commitlint-config.git"
+  },
   "peerDependencies": {
     "@commitlint/cli": ">=12.1.4 <= 13",
     "@commitlint/config-conventional": ">=12.1.4 <= 13",
@@ -11,10 +19,11 @@
   "files": [
     "index.js"
   ],
-  "description": "Shared commitlint configuration",
+  "description": "Superbet shared CommitLint configuration",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
-    "tag": "latest"
+    "registry": "https://registry.npmjs.org",
+    "tag": "latest",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/cli": "13.2.0",
