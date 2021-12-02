@@ -7,10 +7,10 @@ module.exports = {
         {
             rules: {
                 "end-with-jira-id-on-feat-or-fix": ({ type, subject }) => {
-                    if(!["feat", "fix"].includes(type)) {
+                    if (!["feat", "fix"].includes(type)) {
                         return [true];
                     }
-                    
+
                     const pattern = / \[[A-Z]+-[0-9]+\]$/;
                     if (!subject || !subject.match(pattern)) {
                         return [
